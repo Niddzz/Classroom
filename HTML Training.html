@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form action="/Smriti">
+    <div>
+        <label for="Username">Enter You Username: </label>
+        <input type="text" placeholder="enter username" id="username" name="India">
+    </div>
+    <div>
+        <label for="Password">Enter You Password: </label>
+        <input type="password" placeholder="enter Password" id="Password" name="Pass">
+    </div>
+    <button>Submit</button>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search in YouTube" name="search_query">
+        <button>Submit</button>
+    </form>
+    <hr>
+    <form action="/server">
+        <input type="checkbox" name="age" id="age" checked/>
+        <label for="age"> I am 18+</label>
+        <hr>
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="orange" value="orange">
+            <label for="orange">orange</label>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">banana</label>
+        </div>
+        <button>submit</button>
+        <hr>
+        <div>
+            <input type="checkbox" name="Sub" id="Math" value="Math"/>
+            <label for="Math"> Math</label>
+            <input type="checkbox" name="Sub" id="Sci"value="Sci" />
+            <label for="Science"> Science</label>
+            <input type="checkbox" name="Sub" id="Hindi"value="Hindi" />
+            <label for="Hindi"> Hindi</label>
+            <input type="checkbox" name="Sub" id="Eng"value="eng" />
+            <label for="english"> english</label>
+        </div>
+        <button>submit</button>
+        <hr>
+        <div>
+            Choose your Profession:-
+            <select name="Profession" id="Profession">
+                <option>Select your options</option>
+                <option value="Stu">Student</option>
+                <option value="Bus">Business</option>
+                <option value="Dev">Developer</option>
+                <option value="Engr">Enginier</option>
+            </select>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+</html>
